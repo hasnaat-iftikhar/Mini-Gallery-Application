@@ -1,0 +1,20 @@
+@import "../../../assets/styles/helpers.scss";
+
+.appButton {
+    background-color: $white-100;
+    color: $black-100;
+    font-weight: 500;
+    padding: 11px 28px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(0.95);
+    }
+
+    &.greenBtn {
+        background-color: $primary;
+        color: $white-100;
+    }
+}

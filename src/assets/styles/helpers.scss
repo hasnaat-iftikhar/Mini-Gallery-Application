@@ -1,0 +1,94 @@
+// Colors
+$white-100: #fff;
+$black-100: #000;
+$black-70: #000000b3;
+$black-30: #0000004d;
+$primary: #088a5e;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+/* poppins-regular */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+
+@mixin primaryFont {
+  font-family: "Poppins", sans-serif;
+}
+
+@mixin pageWidth {
+  max-width: 1400px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Media queries
+@mixin w {
+  @media only screen and (max-width: "1280px") {
+    @content;
+  }
+}
+@mixin x {
+  @media only screen and (max-width: "1139px") {
+    @content;
+  }
+}
+@mixin d {
+  @media only screen and (max-width: "1179px") {
+    @content;
+  }
+}
+@mixin t {
+  @media only screen and (max-width: "1023px") {
+    @content;
+  }
+}
+@mixin m {
+  @media only screen and (max-width: "767px") {
+    @content;
+  }
+}
+@mixin a {
+  @media only screen and (max-width: "639px") {
+    @content;
+  }
+}
+@mixin s {
+  @media only screen and (max-width: "474px") {
+    @content;
+  }
+}
+@mixin xs {
+  @media only screen and (max-width: "390px") {
+    @content;
+  }
+}

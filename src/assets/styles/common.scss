@@ -1,0 +1,44 @@
+* {
+  @include primaryFont;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #faf5e4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $black-100;
+}
+
+input {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,40 @@
+@import "../../../assets/styles/helpers.scss";
+
+.appHeader {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    .container {
+        @include pageWidth;
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .logoCol {
+                .logoBox {
+                    width: 50px;
+                    .logo {
+                        width: 100%;
+                        box-shadow: 4px 4px 0 0 $black-100;
+                    }
+                }
+            }
+
+            .menuCol {
+                .buttonBox {
+                    .blackBtn {
+                        background: $black-100;
+                        color: $white-100
+                    }
+                }
+            }
+        }
+    }
+}
